@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* adjust for testing */
+  margin: auto;
+}
+
+.main-image {
+  width: 100%;
+  display: block;
+}
+
+.hotspot {
+  position: absolute;
+  padding: 10px 15px;
+  background: rgba(255, 0, 0, 0.7);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
